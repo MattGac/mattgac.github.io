@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- main nac start  -->
+    <nav id="main-nav">
+        <ul>
+            <li class="list-tem">
+                <a href="https://google.com" target="_blank">google</a></li>    
+            <li class="list-tem">
+                <a href="#main">main</a></li>
+            <li class="list-tem">
+                <a href="mailto:matigac@gmail.com">matigac@gmail.com</a></li>
+            <li class="list-tem">
+                <a href="tel:+48791137337">791137337</a></li>
+            <li class="list-tem">
+                <a href=""></a></li>
+        </ul>
+    </nav>
+    <!-- main nav end -->
+    <section>
+        <h2>tytul</h2>
+        <div class="section-inner">
+            <p>lorem</p>
+        </div>
+    </section>
+
+    <section id="main">123</section>
+
+    <!-- tabele -->
+    <!-- konterner na tabelke -->
+    <table>
+<!-- glowa tabeli -->
+        <thead>
+            <!-- wiersz tabeli  -->
+            <th>Produkt</th>
+            <th>Ilosc</th>
+            <th>Cena</th>
+        </thead>
+            <!-- cialo tabeli  -->
+        <tbody> 
+            <tr>
+                <td>jabłka</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>jabłka</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>jabłka</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            
+        </tbody>
+            <!-- stopka tabeli  -->
+        <tfoot>
+            <tr>
+                <td>Razem</td>
+                <td>300</td>
+                <td>300</td>
+            </tr>
+        </tfoot>
+    </table>
+
+            <!-- formularz  -->
+    <form action="https://formspree.io/matigac@gmail.com" method="POST">
+        <input type="text" placeholder="wpisz imię">
+        <label for="tel">wpisz telefon</label>
+        <input type="number" id=tel required>
+        <input type="mail" disabled>
+        <input type="checkbox">
+        <input type="radio" name=gender>
+        <input type="radio" name=gender>
+        <textarea name="" id="" maxlength="1"></textarea>
+        <select name="cities" id="">
+            <option value="krk">krakow</option>
+            <option value="wwa" selected>warszawa</option>
+            <option value="poz">poznan</option>
+        </select>
+        <input type="submit" value="wyslij">
+    </form>
+</body>
+</html>
